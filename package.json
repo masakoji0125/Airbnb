@@ -1,0 +1,24 @@
+{
+  "name": "Aribnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://masakoji0125@github.com/masakoji0125/Airbnb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masakoji0125/Airbnb/issues"
+  },
+  "homepage": "https://github.com/masakoji0125/Airbnb#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
