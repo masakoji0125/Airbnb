@@ -1,3 +1,74 @@
+html {
+  color: #707070;
+  font-family: Hiragino Kaku Gothic ProN;
+  height: 100%;
+  width: 100%; }
+
 header {
+  border-bottom: 2px solid #707070;
+  height: 125px; }
+  header .header_left {
+    font-size: 48px;
+    margin-top: 45px;
+    margin-left: 20px; }
+  header .header__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px; }
+    header .header__menu .header_right li {
+      display: inline;
+      list-style: none;
+      font-size: 20px;
+      margin-right: 20px; }
+    header .header__menu i {
+      color: #fd5c63;
+      margin-right: 20px; }
+
+.main_box {
   display: flex;
-  justify-content: space-around; }
+  flex-direction: column;
+  text-align: center;
+  height: 502px;
+  margin-top: 35px;
+  background-color: #fff;
+  align-items: center; }
+  .main_box h1 {
+    height: 119px;
+    font-size: 119px;
+    position: relative;
+    z-index: 20;
+    margin-top: 50px; }
+  .main_box hr {
+    margin-left: auto;
+    margin-right: auto;
+    size: 3px;
+    position: relative; }
+  .main_box .main_backStr {
+    font-size: 260px;
+    color: #999999;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    opacity: 0.5;
+    z-index: 10; }
+  .main_box p {
+    height: 51px;
+    font-size: 51px;
+    position: relative;
+    z-index: 20; }
+
+.description_box {
+  text-align: center;
+  height: 238px;
+  margin-left: auto;
+  margin-right: auto; }
+  .description_box .description_title {
+    font-size: 60px;
+    margin-bottom: 40px; }
+  .description_box .description_text {
+    font-size: 30px; }
