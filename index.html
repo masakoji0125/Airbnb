@@ -5,36 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./app.js" defer></script>
 </head>
 <body>
 
     <header>
 
-        <div>
+        <div class="header_left">
+            <a id="header_left"></a>
             <p>masako&mizuki</p>
         </div>
 
         <div class="header__menu">
-            <ul>
-                <li>TOP</li>
-                <li>南部</li>
-                <li>中部</li>
-                <li>北部</li>
-                <li>問い合わせ</li>
-                <li>link</li>
-                <i class="fab fa-airbnb fa-2x"></i>
+            <ul class="header_right">
+                <li class="header_menu"><a href="#header_left">TOP</a></li>
+                <li class="header_menu"><a href="#click1_container">南部</a></li>
+                <li class="header_menu"><a href="">中部</a></li>
+                <li class="header_menu"><a href="">北部</a></li>
+                <li class="header_menu"><a href="">問合せ</a></li>
+                <li class="header_menu"><a href="https://www.airbnb.jp/">link</a></li>
             </ul>
-            
+            <i class="fab fa-airbnb fa-4x"></i>
         </div>
 
     </header>
-
+    <a id="mainBox"></a>
     <main>
         <div class="main_box">
             <h1>Aribnb</h1>
             <hr size=" 2 " width="80%">
+            <div class="main_backStr">HiraginoKakuGothicProN</div>
             <p>OKINAWA ISLAND</p>
         </div>
     </main>
@@ -110,19 +112,29 @@
         </div>
     </div>
                     
+  
+     
      <footer>
-         <div>
-             <div>
-                 <div></div>
-                 <div></div>
-                 <div></div>
-                 <div>
-                     <button>送信</button>
-                 </div>
-             </div>
-             <div></div>
-         </div>
+        <section class="get-in-touch">
+            <h1 class="title">Get in touch</h1>
+            <form class="contact-form row">
+               <div class="form-field col x-50">
+                  <input id="name" class="input-text js-input" type="text" required>
+                  <label class="label" for="name">Name</label>
+               </div>
+               <div class="form-field col x-50">
+                  <input id="email" class="input-text js-input" type="email" required>
+                  <label class="label" for="email">E-mail</label>
+               </div>
+               <div class="form-field col x-100">
+                  <input id="message" class="input-text js-input" type="text" required>
+                  <label class="label" for="message">Message</label>
+               </div>
+               <div class="form-field col x-100 align-center">
+                  <input class="submit-btn" type="submit" value="Submit">
+               </div>
+            </form>
+         </section>
      </footer>
-    
 </body>
 </html>
