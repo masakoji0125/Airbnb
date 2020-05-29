@@ -2,6 +2,7 @@ html {
     color: #707070;
     height: 100%;
     width: 100%;
+    font-family: Hiragino Kaku Gothic ProN;
 }
 
 // body{
@@ -383,4 +384,176 @@ body {
          text-decoration: underline;
       }
    }
+}
+
+.click1__container1 {  
+    margin-top: 100px;
+
+    .click1__area1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .click1__img1 {
+        background-image: url(../img/south.jpeg);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+
+        .click1__about1{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            
+            .click1__introduct1 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .click1__button1 {                
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #fd5c63;
+                background: #fff;
+                border:1px solid #fd5c63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .click1__button1:hover {
+                background: #fd5c63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }        
+    }
+}
+
+.click2__container2 { 
+    margin-top: 100px;
+    
+    .click2__area2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .click2__img2 {
+        background-image: url(../img/chatan.webp);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+
+        .click2__about2{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            
+            .click2__introduct2 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .click2__button2 {                
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #fd5c63;
+                background: #fff;
+                border:1px solid #fd5c63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .click2__button2:hover {
+                background: #fd5c63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }        
+    }
+}
+
+.click3__container3 { 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    .click3__area3 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .click3__img3 {
+        background-image: url(../img/north.jpg);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+
+        .click3__about3{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            
+            .click3__introduct3 {
+                padding: 10px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .click3__button3 {                
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #fd5c63;
+                background: #fff;
+                border:1px solid #fd5c63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .click3__button3:hover {
+                background: #fd5c63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }        
+    }
 }
