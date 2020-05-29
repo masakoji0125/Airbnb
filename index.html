@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./app.js" defer></script>
 </head>
 <body>
 
     <header>
 
         <div class="header_left">
+            <a id="header_left"></a>
             <p>masako&mizuki</p>
         </div>
 
         <div class="header__menu">
             <ul class="header_right">
-                <li class="header_menu"><a href="">TOP</a></li>
-                <li class="header_menu"><a href="">南部</a></li>
+                <li class="header_menu"><a href="#header_left">TOP</a></li>
+                <li class="header_menu"><a href="#click1_container">南部</a></li>
                 <li class="header_menu"><a href="">中部</a></li>
                 <li class="header_menu"><a href="">北部</a></li>
                 <li class="header_menu"><a href="">問合せ</a></li>
@@ -29,7 +31,7 @@
         </div>
 
     </header>
-
+    <a id="mainBox"></a>
     <main>
         <div class="main_box">
             <h1>Aribnb</h1>
@@ -44,7 +46,8 @@
         <p class="description_text">空き部屋を貸したい人（ホスト）と部屋を借りたい旅人（ゲスト）とをつなぐWebサービスです</p>
     </div>
 
-    <div>
+    <div class="click1_container">
+        <a id="click1_container"></a>
        <div></div>
        <div>
            <div>
@@ -54,7 +57,7 @@
        </div>
     </div>
 
-    <div>
+    <div class="click2_container">
         <div></div>
         <div>
             <div>
@@ -64,7 +67,7 @@
         </div>
      </div>
 
-     <div>
+     <div class="click3_container">
         <div></div>
         <div>
             <div>
@@ -74,19 +77,66 @@
         </div>
      </div>
 
-     <footer>
+     <!-- <footer>
          <div>
+             <h3>問い合わせ</h3>
              <div>
-                 <div></div>
-                 <div></div>
-                 <div></div>
+                 <div><p>name</p></div>
+                 <div><p>e-mail</p></div>
+                 <div><p>問い合わせ内容</p></div>
                  <div>
                      <button>送信</button>
                  </div>
              </div>
-             <div></div>
+             <div><a href="#mainBox">TOP</a></div>
          </div>
-     </footer>
+     </footer> -->
+
+     <!-- <footer>
+        <section class="form">
+            <h1 class="form_titl">問い合わせ</h1>
+            <form class="form_box row">
+                <div class="form-field col x-50">
+                    <input id="name" class="input-text js-input" type="text" required>
+                    <label class="label" for="name">Name</label>
+                </div>
+                <div class="form-fild col x-50">
+                    <input id="email" class="input-text js-input" type="email" required>
+                    <label class="label" for="email">E-mail</label>
+                </div>
+                <div class="form-field col x-100">
+                    <input id="message" class="input-text js-inout" type="text" required>
+                    <label class="label" for="massage">Massage</label>
+                </div>
+                <div class="form-fild col x-100 align-centr">
+                    <input class="submit-btn" type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+        <div><a href="#mainBox">TOP</a></div>
+     </footer> -->
     
+     <footer>
+        <section class="get-in-touch">
+            <h1 class="title">Get in touch</h1>
+            <form class="contact-form row">
+               <div class="form-field col x-50">
+                  <input id="name" class="input-text js-input" type="text" required>
+                  <label class="label" for="name">Name</label>
+               </div>
+               <div class="form-field col x-50">
+                  <input id="email" class="input-text js-input" type="email" required>
+                  <label class="label" for="email">E-mail</label>
+               </div>
+               <div class="form-field col x-100">
+                  <input id="message" class="input-text js-input" type="text" required>
+                  <label class="label" for="message">Message</label>
+               </div>
+               <div class="form-field col x-100 align-center">
+                  <input class="submit-btn" type="submit" value="Submit">
+               </div>
+            </form>
+         </section>
+     </footer>
 </body>
 </html>
