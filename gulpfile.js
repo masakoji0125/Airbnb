@@ -11,3 +11,10 @@ gulp.task('sass',function(){
         .pipe(gulp.dest('css'))
     )
 })
+
+gulp.task('sass:watch', function(){
+     
+    //sassフォルダ内の前scssファイルの変更を監視
+    //変更があったら、scssをcssに変換
+    gulp.watch('sass/*.scss',gulp.task('sass'))
+});
