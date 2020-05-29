@@ -3,22 +3,26 @@ html {
     font-family: Hiragino Kaku Gothic ProN;
 }
 
-.click1 {    
-    &__area1 {
+.click1__container1 {  
+    margin-top: 100px;
+
+    .click1__area1{
         margin-top: 20px;
         margin-left: 20px;
+        margin-bottom: 30px;
         h1 {
             text-align: center;
             font-size: 50px;
         }
     }
-    &__img1 {
+    .click1__img1 {
         background-image: url(../img/south.jpeg);
         height: 440px;
         width: 45%;
         margin: 0 auto;
         margin-top: 20px;
         position: relative;
+        box-shadow: 0 10px 25px 0 ;
 
         .click1__about1{
             height: 300px;
@@ -30,8 +34,9 @@ html {
             margin-top: 80px;
             
             .click1__introduct1 {
-                padding: 10px 50px;
+                padding: 15px 50px;
                 font-size: 23px;
+                text-align: center;
             }
             .click1__button1 {                
                 display: block;
@@ -56,23 +61,26 @@ html {
     }
 }
 
-.click2 { 
+.click2__container2 { 
+    margin-top: 100px;
     
-    &__area2 {
+    .click2__area2 {
         margin-top: 20px;
         margin-left: 20px;
+        margin-bottom: 30px;
         h1 {
             text-align: center;
             font-size: 50px;
         }
     }
-    &__img2 {
+    .click2__img2 {
         background-image: url(../img/chatan.webp);
         height: 440px;
         width: 45%;
         margin: 0 auto;
         margin-top: 20px;
         position: relative;
+        box-shadow: 0 10px 25px 0 ;
 
         .click2__about2{
             height: 300px;
@@ -84,8 +92,9 @@ html {
             margin-top: 80px;
             
             .click2__introduct2 {
-                padding: 10px 50px;
+                padding: 15px 50px;
                 font-size: 23px;
+                text-align: center;
             }
             .click2__button2 {                
                 display: block;
@@ -110,23 +119,27 @@ html {
     }
 }
 
-.click3 { 
+.click3__container3 { 
+    margin-top: 100px;
+    margin-bottom: 100px;
     
-    &__area3 {
+    .click3__area3 {
         margin-top: 20px;
         margin-left: 20px;
+        margin-bottom: 30px;
         h1 {
             text-align: center;
             font-size: 50px;
         }
     }
-    &__img3 {
+    .click3__img3 {
         background-image: url(../img/north.jpg);
         height: 440px;
         width: 45%;
         margin: 0 auto;
         margin-top: 20px;
         position: relative;
+        box-shadow: 0 10px 25px 0 ;
 
         .click3__about3{
             height: 300px;
@@ -140,6 +153,7 @@ html {
             .click3__introduct3 {
                 padding: 10px 50px;
                 font-size: 23px;
+                text-align: center;
             }
             .click3__button3 {                
                 display: block;
