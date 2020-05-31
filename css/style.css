@@ -6,9 +6,6 @@ html {
   width: 100%;
   font-family: Hiragino Kaku Gothic ProN; }
 
-hr {
-  height: 10px; }
-
 header {
   position: fixed;
   background-color: #ffffff;
@@ -289,8 +286,7 @@ body {
       text-decoration: underline; }
 
 .click1__container1 {
-  margin-top: 50px;
-  padding: 50px; }
+  margin-top: 100px; }
   .click1__container1 .click1__area1 {
     margin-top: 20px;
     margin-bottom: 30px; }
@@ -428,6 +424,282 @@ body {
         cursor: pointer;
         text-decoration: none; }
 
+.miho__container1 {
+  margin-top: 100px; }
+  .miho__container1 .miho__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .miho__container1 .miho__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .miho__container1 .miho__img1 {
+    background-image: url(../img/miho_house.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .miho__container1 .miho__img1 .miho__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .miho__container1 .miho__img1 .miho__about1 .miho__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .miho__container1 .miho__img1 .miho__about1 .miho__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .miho__container1 .miho__img1 .miho__about1 .miho__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.mari__container1 {
+  margin-top: 100px; }
+  .mari__container1 .mari__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .mari__container1 .mari__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .mari__container1 .mari__img1 {
+    background-image: url(../img/mari_house.jpg);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .mari__container1 .mari__img1 .mari__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .mari__container1 .mari__img1 .mari__about1 .mari__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .mari__container1 .mari__img1 .mari__about1 .mari__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .mari__container1 .mari__img1 .mari__about1 .mari__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.theKitchen__container1 {
+  margin-top: 100px; }
+  .theKitchen__container1 .theKitchen__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .theKitchen__container1 .theKitchen__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .theKitchen__container1 .theKitchen__img1 {
+    background-image: url(../img/thekitchenhostelao_hostel.jpg);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .theKitchen__container1 .theKitchen__img1 .theKitchen__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .theKitchen__container1 .theKitchen__img1 .theKitchen__about1 .theKitchen__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .theKitchen__container1 .theKitchen__img1 .theKitchen__about1 .theKitchen__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .theKitchen__container1 .theKitchen__img1 .theKitchen__about1 .theKitchen__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.yuta__container1 {
+  margin-top: 100px; }
+  .yuta__container1 .yuta__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .yuta__container1 .yuta__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .yuta__container1 .yuta__img1 {
+    background-image: url(../img/yuta_house.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .yuta__container1 .yuta__img1 .yuta__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .yuta__container1 .yuta__img1 .yuta__about1 .yuta__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .yuta__container1 .yuta__img1 .yuta__about1 .yuta__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .yuta__container1 .yuta__img1 .yuta__about1 .yuta__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.yasuto__container1 {
+  margin-top: 100px; }
+  .yasuto__container1 .yasuto__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .yasuto__container1 .yasuto__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .yasuto__container1 .yasuto__img1 {
+    background-image: url(../img/yasuto_house.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .yasuto__container1 .yasuto__img1 .yasuto__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .yasuto__container1 .yasuto__img1 .yasuto__about1 .yasuto__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .yasuto__container1 .yasuto__img1 .yasuto__about1 .yasuto__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .yasuto__container1 .yasuto__img1 .yasuto__about1 .yasuto__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.yuta__container1 {
+  margin-top: 100px; }
+  .yuta__container1 .yuta__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .yuta__container1 .yuta__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .yuta__container1 .yuta__img1 {
+    background-image: url(../img/yuta_house.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .yuta__container1 .yuta__img1 .yuta__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .yuta__container1 .yuta__img1 .yuta__about1 .yuta__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .yuta__container1 .yuta__img1 .yuta__about1 .yuta__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .yuta__container1 .yuta__img1 .yuta__about1 .yuta__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
 .asaki__container1 {
   margin-top: 100px; }
   .asaki__container1 .asaki__area1 {
@@ -463,13 +735,13 @@ body {
         padding: 0.8em;
         text-align: center;
         text-decoration: none;
-        color: #fd5c63;
+        color: #FD5C63;
         background: #fff;
-        border: 1px solid #fd5c63;
+        border: 1px solid #FD5C63;
         margin: 0 auto;
         margin-top: 5px; }
       .asaki__container1 .asaki__img1 .asaki__about1 .asaki__button1:hover {
-        background: #fd5c63;
+        background: #FD5C63;
         color: #fff;
         cursor: pointer;
         text-decoration: none; }
@@ -509,13 +781,13 @@ body {
         padding: 0.8em;
         text-align: center;
         text-decoration: none;
-        color: #fd5c63;
+        color: #FD5C63;
         background: #fff;
-        border: 1px solid #fd5c63;
+        border: 1px solid #FD5C63;
         margin: 0 auto;
         margin-top: 5px; }
       .hiromi__container1 .hiromi__img1 .hiromi__about1 .hiromi__button1:hover {
-        background: #fd5c63;
+        background: #FD5C63;
         color: #fff;
         cursor: pointer;
         text-decoration: none; }
@@ -555,13 +827,13 @@ body {
         padding: 0.8em;
         text-align: center;
         text-decoration: none;
-        color: #fd5c63;
+        color: #FD5C63;
         background: #fff;
-        border: 1px solid #fd5c63;
+        border: 1px solid #FD5C63;
         margin: 0 auto;
         margin-top: 5px; }
       .prime__container1 .prime__img1 .prime__about1 .prime__button1:hover {
-        background: #fd5c63;
+        background: #FD5C63;
         color: #fff;
         cursor: pointer;
         text-decoration: none; }
@@ -601,13 +873,13 @@ body {
         padding: 0.8em;
         text-align: center;
         text-decoration: none;
-        color: #fd5c63;
+        color: #FD5C63;
         background: #fff;
-        border: 1px solid #fd5c63;
+        border: 1px solid #FD5C63;
         margin: 0 auto;
         margin-top: 5px; }
       .yasuhiro__container1 .yasuhiro__img1 .yasuhiro__about1 .yasuhiro__button1:hover {
-        background: #fd5c63;
+        background: #FD5C63;
         color: #fff;
         cursor: pointer;
         text-decoration: none; }
@@ -648,12 +920,242 @@ body {
         padding: 0.8em;
         text-align: center;
         text-decoration: none;
+        color: #FD5C63;
+        background: #fff;
+        border: 1px solid #FD5C63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .isa__container1 .isa__img1 .isa__about1 .isa__button1:hover {
+        background: #FD5C63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.eva__container1 {
+  margin-top: 100px; }
+  .eva__container1 .eva__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .eva__container1 .eva__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .eva__container1 .eva__img1 {
+    background-image: url(../img/eva.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .eva__container1 .eva__img1 .eva__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .eva__container1 .eva__img1 .eva__about1 .eva__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .eva__container1 .eva__img1 .eva__about1 .eva__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
         color: #fd5c63;
         background: #fff;
         border: 1px solid #fd5c63;
         margin: 0 auto;
         margin-top: 5px; }
-      .isa__container1 .isa__img1 .isa__about1 .isa__button1:hover {
+      .eva__container1 .eva__img1 .eva__about1 .eva__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.reef__container1 {
+  margin-top: 100px; }
+  .reef__container1 .reef__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .reef__container1 .reef__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .reef__container1 .reef__img1 {
+    background-image: url(../img/reef.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .reef__container1 .reef__img1 .reef__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .reef__container1 .reef__img1 .reef__about1 .reef__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .reef__container1 .reef__img1 .reef__about1 .reef__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .reef__container1 .reef__img1 .reef__about1 .reef__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.thoma__container1 {
+  margin-top: 100px; }
+  .thoma__container1 .thoma__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .thoma__container1 .thoma__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .thoma__container1 .thoma__img1 {
+    background-image: url(../img/thoma.jpg);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .thoma__container1 .thoma__img1 .thoma__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .thoma__container1 .thoma__img1 .thoma__about1 .thoma__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .thoma__container1 .thoma__img1 .thoma__about1 .thoma__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .thoma__container1 .thoma__img1 .thoma__about1 .thoma__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.kayohamaca__container1 {
+  margin-top: 100px; }
+  .kayohamaca__container1 .kayohamaca__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .kayohamaca__container1 .kayohamaca__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .kayohamaca__container1 .kayohamaca__img1 {
+    background-image: url(../img/kayo.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .kayohamaca__container1 .kayohamaca__img1 .kayohamaca__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .kayohamaca__container1 .kayohamaca__img1 .kayohamaca__about1 .kayohamaca__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .kayohamaca__container1 .kayohamaca__img1 .kayohamaca__about1 .kayohamaca__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .kayohamaca__container1 .kayohamaca__img1 .kayohamaca__about1 .kayohamaca__button1:hover {
+        background: #fd5c63;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none; }
+
+.kaoru__container1 {
+  margin-top: 100px; }
+  .kaoru__container1 .kaoru__area1 {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .kaoru__container1 .kaoru__area1 h1 {
+      text-align: center;
+      font-size: 50px; }
+  .kaoru__container1 .kaoru__img1 {
+    background-image: url(../img/kaoru.webp);
+    height: 440px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 10px 25px 0; }
+    .kaoru__container1 .kaoru__img1 .kaoru__about1 {
+      height: 300px;
+      width: 70%;
+      background-color: white;
+      opacity: 0.8;
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 80px; }
+      .kaoru__container1 .kaoru__img1 .kaoru__about1 .kaoru__introduct1 {
+        padding: 15px 50px;
+        font-size: 23px;
+        text-align: center; }
+      .kaoru__container1 .kaoru__img1 .kaoru__about1 .kaoru__button1 {
+        display: block;
+        position: relative;
+        width: 160px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #fd5c63;
+        background: #fff;
+        border: 1px solid #fd5c63;
+        margin: 0 auto;
+        margin-top: 5px; }
+      .kaoru__container1 .kaoru__img1 .kaoru__about1 .kaoru__button1:hover {
         background: #fd5c63;
         color: #fff;
         cursor: pointer;
