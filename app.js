@@ -5,3 +5,5 @@ $( '.js-input' ).keyup(function() {
        $(this).removeClass('not-empty');
     }
   });
+
+  
