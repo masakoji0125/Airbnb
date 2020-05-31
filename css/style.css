@@ -27,6 +27,9 @@ header {
       list-style: none;
       font-size: 20px;
       margin-right: 20px; }
+    header .header__menu .header_right a {
+      text-decoration: none;
+      color: #707070; }
     header .header__menu i {
       color: #fd5c63;
       margin-right: 20px; }
