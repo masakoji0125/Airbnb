@@ -559,7 +559,7 @@ body {
 }
 
 
-//南部エリアページ
+//南部エリアページ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 .miho__container1 {  
     margin-top: 100px;
 
@@ -901,6 +901,281 @@ body {
         }        
     }
 }
+
+// 中部エリア＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+.asaki__container1 {
+    margin-top: 100px;
+    .asaki__area1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .asaki__img1 {
+        background-image: url(../img/asaki_hostel.webp);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+        .asaki__about1{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            .asaki__introduct1 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .asaki__button1 {
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #FD5C63;
+                background: #fff;
+                border:1px solid #FD5C63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .asaki__button1:hover {
+                background: #FD5C63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }
+    }
+}
+.hiromi__container1 {
+    margin-top: 100px;
+    .hiromi__area1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .hiromi__img1 {
+        background-image: url(../img/hiromi_kondominiamu.webp);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+        .hiromi__about1{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            .hiromi__introduct1 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .hiromi__button1 {
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #FD5C63;
+                background: #fff;
+                border:1px solid #FD5C63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .hiromi__button1:hover {
+                background: #FD5C63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }
+    }
+}
+.prime__container1 {
+    margin-top: 100px;
+    .prime__area1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .prime__img1 {
+        background-image: url(../img/prime_mansion.webp);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+        .prime__about1{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            .prime__introduct1 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .prime__button1 {
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #FD5C63;
+                background: #fff;
+                border:1px solid #FD5C63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .prime__button1:hover {
+                background: #FD5C63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }
+    }
+}
+.yasuhiro__container1 {
+    margin-top: 100px;
+    .yasuhiro__area1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .yasuhiro__img1 {
+        background-image: url(../img/yasuhiro_house.webp);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+        .yasuhiro__about1{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            .yasuhiro__introduct1 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .yasuhiro__button1 {
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #FD5C63;
+                background: #fff;
+                border:1px solid #FD5C63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .yasuhiro__button1:hover {
+                background: #FD5C63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }
+    }
+}
+.isa__container1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .isa__area1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+    .isa__img1 {
+        background-image: url(../img/isa_house.webp);
+        height: 440px;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        box-shadow: 0 10px 25px 0 ;
+        .isa__about1{
+            height: 300px;
+            width: 70%;
+            background-color: white;
+            opacity: 0.8;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 80px;
+            .isa__introduct1 {
+                padding: 15px 50px;
+                font-size: 23px;
+                text-align: center;
+            }
+            .isa__button1 {
+                display: block;
+                position: relative;
+                width: 160px;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                color: #FD5C63;
+                background: #fff;
+                border:1px solid #FD5C63;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            .isa__button1:hover {
+                background: #FD5C63;
+                    color: #fff;
+                cursor: pointer;
+                text-decoration: none;
+           }
+        }
+    }
+}
+// 中部エリア終了＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+
+
+
+
+
+
 
 //北部エリアページ
 .eva__container1 {  
