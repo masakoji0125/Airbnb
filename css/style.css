@@ -289,7 +289,8 @@ body {
       text-decoration: underline; }
 
 .click1__container1 {
-  margin-top: 100px; }
+  margin-top: 50px;
+  padding: 50px; }
   .click1__container1 .click1__area1 {
     margin-top: 20px;
     margin-bottom: 30px; }
@@ -574,7 +575,7 @@ body {
       text-align: center;
       font-size: 50px; }
   .yasuhiro__container1 .yasuhiro__img1 {
-    background-image: url(../img/yasuhiro_house.webp);
+    background-image: url(../img/isa_house.webp);
     height: 440px;
     width: 45%;
     margin: 0 auto;
